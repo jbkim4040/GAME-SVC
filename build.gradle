@@ -24,8 +24,20 @@ ext {
 }
 
 dependencies {
+    // mongoDB 사용을 위한 의존성 추가
+    implementation ('org.springframework.boot:spring-boot-starter-data-mongodb-reactive')
+    
+    // restAPI 개발을 위한 의존성 추가
     implementation 'org.springframework.boot:spring-boot-starter-hateoas'
-    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+
+    // AOP 적용을 위한 의존성 추가
+    implementation 'org.springframework.boot:spring-boot-starter-aop'
+    implementation 'org.aspectj:aspectjweaver:1.9.6'
+
+    // eureka 서버 사용을 위한 의존성 추가
+    //implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+
+    // 기타
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
