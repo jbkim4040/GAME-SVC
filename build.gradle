@@ -34,6 +34,9 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-aop'
     implementation 'org.aspectj:aspectjweaver:1.9.6'
 
+    // 소켓 통신을 위한 의존성 추가
+    implementation 'org.springframework.boot:spring-boot-starter-websocket'
+
     // eureka 서버 사용을 위한 의존성 추가
     //implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
 
