@@ -2,7 +2,6 @@ package com.legacy.gamesvc.chat.controller;
 
 import com.legacy.gamesvc.chat.dto.ChatDTO;
 import com.legacy.gamesvc.chat.service.ChatService;
-import com.legacy.gamesvc.chat.service.ChatServiceImpl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

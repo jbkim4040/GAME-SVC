@@ -7,6 +7,7 @@ import com.legacy.gamesvc.chat.service.ChatService;
 import com.legacy.gamesvc.chat.service.ChatServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.web.socket.handler.TextWebSocketHandler;
 
 /**
  * packageName    : com.legacy.gamesvc.common.config
